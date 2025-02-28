@@ -1,14 +1,14 @@
 {
     "version": 2,
     "functions": {
-      "handler.go": {
+      "api/handler.go": {
         "runtime": "vercel-go@1.2.0"
       }
     },
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "handler"
+        "dest": "api/handler"
       }
     ]
   }
