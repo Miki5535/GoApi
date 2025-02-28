@@ -2,7 +2,7 @@
     "version": 2,
     "functions": {
       "api/handler.go": {
-        "runtime": "vercel-go@1.2.0"
+        "runtime": "@vercel/go"
       }
     },
     "routes": [
