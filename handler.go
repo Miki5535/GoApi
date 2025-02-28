@@ -22,7 +22,7 @@
 // 	r.Run(":8080") // API จะรันที่ http://localhost:8080
 // }
 
-package main
+package handler
 
 import (
 	"go-sql/db"
